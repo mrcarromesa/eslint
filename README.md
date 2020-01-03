@@ -60,7 +60,8 @@ yarn add eslint-config-airbnb
             "es6": true,
             "node": true
         },
-        "extends": ["airbnb", "prettier", "eslint:recommended", "plugin:node/recommended"],
+        // "extends": ["airbnb", "prettier", "eslint:recommended", "plugin:node/recommended"],
+        "extends": ["airbnb", "prettier", "eslint:recommended"],
         "plugins": ["prettier"],
         "globals": {
             "Atomics": "readonly",
@@ -85,6 +86,7 @@ yarn add eslint-config-airbnb
             "prettier/prettier": "error",
             "no-unused-vars": "warn",
             "no-var": "error",
+            "import/no-dynamic-require": "off",
             // "no-console": "off",
             "func-names": "off",
             "no-process-exit": "off",

@@ -30,6 +30,7 @@
         "prettier/prettier": "error",
         "no-unused-vars": "warn",
         "no-var": "error",
+        "import/no-dynamic-require": "off",
         // "no-console": "off",
         "func-names": "off",
         "no-process-exit": "off",
